@@ -1,0 +1,19 @@
+basic:
+  port: 1230
+  bindIp: 127.0.0.1
+hosts:
+  123.45.6.78:
+    username: user
+    password: pass
+  default:
+    username: user
+    password: pass
+metrics:
+  system: true
+  sensors: true
+  power: true
+  events: false
+  storage: false
+  memory: false
+  network: false
+
